@@ -75,6 +75,10 @@ a:active {
 	
 }
 
+.services3 {
+	border:2px solid #fff;
+	
+}
 .servicesbd {
 	padding: 100px;
 	background: url('image/bg1.jpg'); 
@@ -100,4 +104,13 @@ a:active {
   .text2 {
 	position: absolute;
 	padding-left: 30px;
+ }
+ 
+ .aboutus {
+	border:2px solid #fff;
+	border-radius:1em;
+	background: url('image/bg2.jpg'); 
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
  }

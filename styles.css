@@ -60,17 +60,44 @@ a:active {
 }
 
 .services1 {
+	position: absolute;
+    left: 500px;
+    top: 270px;
+	border:2px solid #fff;
 	
-	border:1px solid #fff;
-	border-spacing:0px;
+}
+
+.services2 {
+	position: absolute;
+    left: 900px;
+    top: 270px;
+	border:2px solid #fff;
+	
 }
 
 .servicesbd {
 	padding: 100px;
-	background: url('image/bg1.jpg') fixed; 
+	background: url('image/bg1.jpg'); 
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
 
-.services1 {
-	margin-left: 400px;
-	padding-right:10px;
-}
+ .text {
+	position: absolute;
+    left: 500px;
+    top: 500px;
+	padding-left: 55px;
+ }
+ 
+  .text1 {
+	position: absolute;
+    left: 920px;
+    top: 500px;
+	padding-left: 55px;
+ }
+ 
+  .text2 {
+	position: absolute;
+	padding-left: 30px;
+ }
